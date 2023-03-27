@@ -52,3 +52,8 @@ type Notif struct {
 	Server   string `json:"server"`
 	Messages string `json:"messages"`
 }
+
+type NotifPool struct {
+	Pool         string `json:"pool"`
+	NotifMessage Notif  `json:"message"`
+}
